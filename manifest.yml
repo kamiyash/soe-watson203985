@@ -1,0 +1,7 @@
+applications:
+- name: soe-vgw-wcs-node-v1
+  memory: 128M
+  domain: mybluemix.net
+  command: node app.js
+  path: .
+  instances: 1
